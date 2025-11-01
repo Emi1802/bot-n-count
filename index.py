@@ -24,7 +24,7 @@ def start_web_server_thread():
 # --- FIN DE LA NUEVA PARTE ---
 
 
-# --- Configuración del Bot (Tu código de antes) ---
+# --- Configuración del Bot ---
 CANAL_ID_REPORTE = 1434272560773599302  # <--- REEMPLAZA ESTE NÚMERO
 PALABRAS_A_RASTREAR = ["nigger", "nigga"] # <--- PON TUS PALABRAS AQUÍ
 # --- AJUSTE IMPORTANTE ---
@@ -128,4 +128,5 @@ else:
     start_web_server_thread()
 
     # Iniciar el bot
+
     client.run(TOKEN)
